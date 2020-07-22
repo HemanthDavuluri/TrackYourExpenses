@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import postRequest from "../api/postRequest";
+import "../css/Form.css";
 
 const Form = () => {
   let [productName, setProductName] = useState("");
@@ -18,9 +19,10 @@ const Form = () => {
       });
   };
   return (
-    <div>
+    <div className="card-container">
       <div
-        style={{ display: "grid", justifyContent: "center", padding: "15%" }}
+        
+        style={{ display: "grid", justifyContent: "center", padding: "45%" }}
       >
         <label>Enter the product name</label>
         <input
