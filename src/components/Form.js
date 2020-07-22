@@ -6,7 +6,12 @@ const Form = () => {
  
   return (
     <div className="card-container">
-      
+      <div className="card-content">
+       
+        <input type="text" placeholder="Purchased Item"></input>
+        
+        <input type="number" placeholder="Price"></input>
+      </div>
     </div>
   );
 };
