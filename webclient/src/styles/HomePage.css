@@ -1,0 +1,85 @@
+.home-page {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+  height: 100vh;
+  min-height: 20%;
+  justify-content: center;
+}
+
+.logo h1:nth-child(1) {
+  margin-left: 15%;
+  font-size: clamp(50px, 5vw, 95px);
+  font-weight: 300;
+}
+
+.logo h2:nth-child(2) {
+  margin-left: 29%;
+  font-size: clamp(40px, 5vw, 50px);
+  font-weight: 200;
+}
+
+.logo h1:nth-child(3) {
+  margin-left: 35%;
+  font-size: clamp(50px, 5vw, 95px);
+  font-weight: 300;
+}
+
+.login {
+  margin-bottom: 30px;
+  width: 35%;
+  min-width: 270px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login input {
+  width: 90%;
+  min-width: 250px;
+  height: 40px;
+  background-color: #f3f3f3;
+  border-color: #c0c0c0;
+  border: 1px;
+  color: #7e7b7b;
+}
+
+.login button {
+  width: 90%;
+  min-width: 250px;
+  height: 40px;
+  border: 1px;
+  background-color: #6553d8;
+  color: white;
+  font-size: 25px;
+}
+
+.login button:hover {
+  cursor: pointer;
+}
+
+.login p {
+  color: #7e7b7b;
+}
+
+.login p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.login img {
+  fill: #5000fb;
+}
